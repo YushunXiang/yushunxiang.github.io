@@ -74,5 +74,5 @@ email: 'xiangyushun@mail.nwpu.edu.cn'
 highlight_name: true
 ---
 
-Yushun Xiang is an undergraduate at Northwestern Polytechnical University. He has a solid foundation in computer and mathematics, strong self-study ability, willing to learn and think about new knowledge, and have a strong interest in related fields of computers. I hope I can learn related fields in my future study career and make some achievements.
+My name is Yushun Xiang. I am an undergraduate student majoring in Software Engineering from the School of Software, at Northwestern Polytechnical University. I have a solid foundation in computer and mathematics, strong self-study ability, willing to learn and think about new knowledge, and have a strong interest in related fields of computers. I hope I can learn related fields in my future study career and make some achievements.
 {style="text-align: justify;"}
