@@ -74,5 +74,5 @@ email: 'xiangyushun@mail.nwpu.edu.cn'
 highlight_name: true
 ---
 
-I am an undergraduate student majoring in Software Engineering from the School of Software, at Northwestern Polytechnical University. I am an incoming master student at the Shanghai Jiao Tong University in 2024, under the supervision of Prof. [Yong-Lu Li](https://dirtyharrylyl.github.io/).
+I am an undergraduate student majoring in Software Engineering from the School of Software, at Northwestern Polytechnical University. I am an incoming master student at the [RHOS](https://mvig-rhos.com/) team at [MVIG](https://www.mvig.org/), Shanghai Jiao Tong University in 2024, under the supervision of Prof. [Yong-Lu Li](https://dirtyharrylyl.github.io/).
 {style="text-align: justify;"}
