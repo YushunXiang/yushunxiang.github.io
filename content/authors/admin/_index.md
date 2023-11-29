@@ -26,16 +26,16 @@ bio: My research interests include distributed robotics, mobile computing and pr
 
 # Interests to show in About widget
 interests:
-  - Artificial Intelligence
+  - Computer Vision
   - Robot
-  - Algorithm
+  - Embodied AI
 
 # Education to show in About widget
 education:
   courses:
     - course: BEng in Software Engineering
       institution: Northwestern Polytechnical University
-      year: 2024
+      year: 2020-present
 
 # Social/Academic Networking
 # For available icons, see: https://wowchemy.com/docs/getting-started/page-builder/#icons
@@ -74,5 +74,5 @@ email: 'xiangyushun@mail.nwpu.edu.cn'
 highlight_name: true
 ---
 
-My name is Yushun Xiang. I am an undergraduate student majoring in Software Engineering from the School of Software, at Northwestern Polytechnical University. I have a solid foundation in computer and mathematics, strong self-study ability, willing to learn and think about new knowledge, and have a strong interest in related fields of computers. I hope I can learn related fields in my future study career and make some achievements.
+I am an undergraduate student majoring in Software Engineering from the School of Software, at Northwestern Polytechnical University. I am an incoming master student at the Shanghai Jiao Tong University in 2024, under the supervision of Prof. [Yong-Lu Li](https://dirtyharrylyl.github.io/).
 {style="text-align: justify;"}
