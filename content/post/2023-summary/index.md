@@ -76,4 +76,81 @@ categories:
 
 ![保研焦虑](offer.jpg "offer快来")
 
+## May
+
+![campus](campus2.jpg "校园")
+
+![campus](campus3.jpg "校园")
+
+![campus](campus4.jpg "校园")
+
+![campus](campus5.jpg "校园")
+
+## June
+
+参加夏令营啦
+
+![陆家嘴](shanghai1.jpg "陆家嘴")
+
+复旦大学
+
+![复旦大学江湾校区](fdu1.jpg "复旦大学江湾校区")
+
+![复旦大学邯郸校区](fdu2.jpg "复旦大学邯郸校区光华楼")
+
+## July
+
+同济大学
+
+![同济大学](tongjiU.jpg "同济大学")
+
+上海交通大学
+
+![上海交通大学](sjtu1.jpg "上海交通大学")
+
+![上海交通大学](sjtu2.jpg "上海交通大学")
+
+中国人民大学
+
+![人民大学](ruc.jpg "中国人民大学")
+
+![人民大学](ruc2.jpg "中国人民大学立德楼")
+
+北京大学
+
+![北京大学](pku.jpg "北京大学")
+
+中科院自动化所
+
+![中科院自动化所](ia.jpg "中科院自动化所")
+
+然后就结束夏令营啦，回家摆烂。
+
+![](hometown3.jpg "老家")
+
+![](hometown4.jpg "老家")
+
+## August
+
+去了太仓校区！
+
+![](taicang1.jpg "校门")
+
+![](taicang2.jpg "寝室")
+
+![](taicang3.jpg "海天禅寺")
+
+![](xjtlu.jpg "西交利物浦")
+
+## September
+
+![](campus6.jpg "鹿先森乐队")
+
+![](baoyan.jpg "保研啦")
+
+## October
+
+
+
+
 好吧我有点不想写了，先放着吧。
