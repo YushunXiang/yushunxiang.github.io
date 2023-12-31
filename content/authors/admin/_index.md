@@ -22,7 +22,7 @@ organizations:
     url: https://www.nwpu.edu.cn/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: My research interests include computer vision and robotics vision
 
 # Interests to show in About widget
 interests:
@@ -74,5 +74,5 @@ email: 'xiangyushun@mail.nwpu.edu.cn'
 highlight_name: true
 ---
 
-I am an undergraduate student majoring in Software Engineering from the School of Software, at Northwestern Polytechnical University. I am an incoming master student at the [RHOS](https://mvig-rhos.com/) team at [MVIG](https://www.mvig.org/), Shanghai Jiao Tong University in 2024, under the supervision of Prof. [Yong-Lu Li](https://dirtyharrylyl.github.io/).
+I am an undergraduate student majoring in Software Engineering from the School of Software, at Northwestern Polytechnical University. I am an incoming master student at the [RHOS](https://mvig-rhos.com/) team at [MVIG](https://www.mvig.org/), Shanghai Jiao Tong University in 2024, under the supervision of Prof. [Yong-Lu Li](https://dirtyharrylyl.github.io/) and Prof. [Cewu Lu](https://www.mvig.org/).
 {style="text-align: justify;"}
