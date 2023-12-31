@@ -150,7 +150,30 @@ categories:
 
 ## October
 
+兰州之行
 
+![](lanzhou1.jpg)
 
+![](lanzhou2.jpg)
 
-好吧我有点不想写了，先放着吧。
+![](lanzhou3.jpg)
+
+![](lanzhou4.jpg)
+
+## November
+
+![](sjtu3.jpg)
+
+![](sjtu4.jpg)
+
+![](lab.jpg)
+
+## December
+
+![](suzhou4.jpg)
+
+![](suzhou3.jpg)
+
+![](suzhou2.jpg)
+
+![](suzhou1.jpg)
