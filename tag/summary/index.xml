@@ -762,6 +762,7 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;/div>&lt;/figure>
 &lt;/p>
 &lt;h2 id="december">December&lt;/h2>
+&lt;p>苏州之行&lt;/p>
 &lt;p>
 &lt;figure >
 &lt;div class="d-flex justify-content-center">
@@ -776,9 +777,9 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;/div>&lt;/figure>
 &lt;/p>
 &lt;p>
-&lt;figure >
+&lt;figure id="figure-拙政园">
 &lt;div class="d-flex justify-content-center">
-&lt;div class="w-100" >&lt;img alt="" srcset="
+&lt;div class="w-100" >&lt;img alt="拙政园" srcset="
 /post/2023-summary/suzhou3_hub3bd8617e936674391b1c9141a38f10f_829302_602c062b39ce8d82ba5d813243302f31.webp 400w,
 /post/2023-summary/suzhou3_hub3bd8617e936674391b1c9141a38f10f_829302_a4b4b974b0e407bfc06b1fa9eb693eca.webp 760w,
 /post/2023-summary/suzhou3_hub3bd8617e936674391b1c9141a38f10f_829302_1200x1200_fit_q75_h2_lanczos.webp 1200w"
@@ -786,12 +787,14 @@ src="https://yushunxiang.github.io/post/2023-summary/suzhou3_hub3bd8617e93667439
 width="760"
 height="569"
 loading="lazy" data-zoomable />&lt;/div>
-&lt;/div>&lt;/figure>
+&lt;/div>&lt;figcaption>
+拙政园
+&lt;/figcaption>&lt;/figure>
 &lt;/p>
 &lt;p>
-&lt;figure >
+&lt;figure id="figure-金鸡湖东方之门">
 &lt;div class="d-flex justify-content-center">
-&lt;div class="w-100" >&lt;img alt="" srcset="
+&lt;div class="w-100" >&lt;img alt="金鸡湖东方之门" srcset="
 /post/2023-summary/suzhou2_huf2e83ac7f1a476062c42654344dd230a_270256_dbf31c516f21681f4e469d88594d57a6.webp 400w,
 /post/2023-summary/suzhou2_huf2e83ac7f1a476062c42654344dd230a_270256_8ad811ecd7a03da791a92de15a187b1b.webp 760w,
 /post/2023-summary/suzhou2_huf2e83ac7f1a476062c42654344dd230a_270256_1200x1200_fit_q75_h2_lanczos.webp 1200w"
@@ -799,12 +802,14 @@ src="https://yushunxiang.github.io/post/2023-summary/suzhou2_huf2e83ac7f1a476062
 width="760"
 height="569"
 loading="lazy" data-zoomable />&lt;/div>
-&lt;/div>&lt;/figure>
+&lt;/div>&lt;figcaption>
+金鸡湖东方之门
+&lt;/figcaption>&lt;/figure>
 &lt;/p>
 &lt;p>
-&lt;figure >
+&lt;figure id="figure-金鸡湖日落">
 &lt;div class="d-flex justify-content-center">
-&lt;div class="w-100" >&lt;img alt="" srcset="
+&lt;div class="w-100" >&lt;img alt="金鸡湖日落" srcset="
 /post/2023-summary/suzhou1_hu0dd183a0e17a1f8266423c57087d2cd4_190169_3051100edd253f1679b5caed9219a945.webp 400w,
 /post/2023-summary/suzhou1_hu0dd183a0e17a1f8266423c57087d2cd4_190169_3504ecef5782f6e860b8040050eab8de.webp 760w,
 /post/2023-summary/suzhou1_hu0dd183a0e17a1f8266423c57087d2cd4_190169_1200x1200_fit_q75_h2_lanczos.webp 1200w"
@@ -812,5 +817,9 @@ src="https://yushunxiang.github.io/post/2023-summary/suzhou1_hu0dd183a0e17a1f826
 width="760"
 height="569"
 loading="lazy" data-zoomable />&lt;/div>
-&lt;/div>&lt;/figure>
-&lt;/p></description></item></channel></rss>
+&lt;/div>&lt;figcaption>
+金鸡湖日落
+&lt;/figcaption>&lt;/figure>
+&lt;/p>
+&lt;h2 id="写在最后">写在最后&lt;/h2>
+&lt;p>2024新年快乐！&lt;/p></description></item></channel></rss>
