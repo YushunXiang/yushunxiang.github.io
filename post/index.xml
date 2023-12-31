@@ -1,4 +1,193 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts | Yushun Xiang</title><link>https://yushunxiang.github.io/post/</link><atom:link href="https://yushunxiang.github.io/post/index.xml" rel="self" type="application/rss+xml"/><description>Posts</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 13 Dec 2020 00:00:00 +0000</lastBuildDate><image><url>https://yushunxiang.github.io/media/icon_hu44ec3c4667a18d6abcdb192f06f09500_378449_512x512_fill_lanczos_center_3.png</url><title>Posts</title><link>https://yushunxiang.github.io/post/</link></image><item><title>Welcome to Wowchemy, the website builder for Hugo</title><link>https://yushunxiang.github.io/post/getting-started/</link><pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate><guid>https://yushunxiang.github.io/post/getting-started/</guid><description>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-python" data-lang="python">&lt;span class="line">&lt;span class="cl">&lt;span class="kn">import&lt;/span> &lt;span class="nn">libr&lt;/span>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts | Yushun Xiang</title><link>https://yushunxiang.github.io/post/</link><atom:link href="https://yushunxiang.github.io/post/index.xml" rel="self" type="application/rss+xml"/><description>Posts</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 31 Dec 2023 00:00:00 +0000</lastBuildDate><image><url>https://yushunxiang.github.io/media/icon_hu44ec3c4667a18d6abcdb192f06f09500_378449_512x512_fill_lanczos_center_3.png</url><title>Posts</title><link>https://yushunxiang.github.io/post/</link></image><item><title>2023年终总结</title><link>https://yushunxiang.github.io/post/2023-summary/</link><pubDate>Sun, 31 Dec 2023 00:00:00 +0000</pubDate><guid>https://yushunxiang.github.io/post/2023-summary/</guid><description>&lt;p>我不是一个喜欢总结的人，不过到了年末，想着还是放点照片，留个纪念吧。照片都是随手拍的，我也懒得P图，大伙见谅。&lt;/p>
+&lt;h2 id="january">January&lt;/h2>
+&lt;p>一月份当然是过年啦！由于疫情原因期末考推迟了所以我就回家过年啦！&lt;/p>
+&lt;p>
+&lt;figure id="figure-在家拍的烟花">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="烟花" srcset="
+/post/2023-summary/my-home-fireworks_hu1c22f23dd6e13a711119eab08b9671b1_134206_48a2a8ffd8f398a883edf8095f2cefac.webp 400w,
+/post/2023-summary/my-home-fireworks_hu1c22f23dd6e13a711119eab08b9671b1_134206_e28548c0b1290448bdfd67b8bb0c4b71.webp 760w,
+/post/2023-summary/my-home-fireworks_hu1c22f23dd6e13a711119eab08b9671b1_134206_1200x1200_fit_q75_h2_lanczos.webp 1200w"
+src="https://yushunxiang.github.io/post/2023-summary/my-home-fireworks_hu1c22f23dd6e13a711119eab08b9671b1_134206_48a2a8ffd8f398a883edf8095f2cefac.webp"
+width="760"
+height="570"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+在家拍的烟花
+&lt;/figcaption>&lt;/figure>
+&lt;/p>
+&lt;p>
+&lt;figure id="figure-始丰湖公园">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="始丰湖公园" srcset="
+/post/2023-summary/shifeng-park_hu059cc3dc270427bc81947f34d1e65328_258501_ffbbf298c7775d0804fb695011e53f7c.webp 400w,
+/post/2023-summary/shifeng-park_hu059cc3dc270427bc81947f34d1e65328_258501_ee500a4a2a3e3e13260e53bd41cda361.webp 760w,
+/post/2023-summary/shifeng-park_hu059cc3dc270427bc81947f34d1e65328_258501_1200x1200_fit_q75_h2_lanczos.webp 1200w"
+src="https://yushunxiang.github.io/post/2023-summary/shifeng-park_hu059cc3dc270427bc81947f34d1e65328_258501_ffbbf298c7775d0804fb695011e53f7c.webp"
+width="760"
+height="570"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+始丰湖公园
+&lt;/figcaption>&lt;/figure>
+&lt;/p>
+&lt;p>
+&lt;figure id="figure-始丰湖公园">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="始丰湖公园" srcset="
+/post/2023-summary/shifeng-park2_hudf4df43afb23ccc96901ec8e366cef22_160320_10bbf125bfc1899a6a1e94eac03bb298.webp 400w,
+/post/2023-summary/shifeng-park2_hudf4df43afb23ccc96901ec8e366cef22_160320_adab4399147a71f82f824a2aa49e579d.webp 760w,
+/post/2023-summary/shifeng-park2_hudf4df43afb23ccc96901ec8e366cef22_160320_1200x1200_fit_q75_h2_lanczos.webp 1200w"
+src="https://yushunxiang.github.io/post/2023-summary/shifeng-park2_hudf4df43afb23ccc96901ec8e366cef22_160320_10bbf125bfc1899a6a1e94eac03bb298.webp"
+width="760"
+height="570"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+始丰湖公园
+&lt;/figcaption>&lt;/figure>
+&lt;/p>
+&lt;p>老家有山有水，是个修身养性的好地方。&lt;/p>
+&lt;p>
+&lt;figure id="figure-老家">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="老家" srcset="
+/post/2023-summary/hometown1_hua49dd6a0b385869123006d87f47d5479_162148_8296de11b3d81c570d22d6c95a9d2ce9.webp 400w,
+/post/2023-summary/hometown1_hua49dd6a0b385869123006d87f47d5479_162148_0fe8f2965b46e5ab44dad99123a496f8.webp 760w,
+/post/2023-summary/hometown1_hua49dd6a0b385869123006d87f47d5479_162148_1200x1200_fit_q75_h2_lanczos.webp 1200w"
+src="https://yushunxiang.github.io/post/2023-summary/hometown1_hua49dd6a0b385869123006d87f47d5479_162148_8296de11b3d81c570d22d6c95a9d2ce9.webp"
+width="760"
+height="570"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+老家
+&lt;/figcaption>&lt;/figure>
+&lt;/p>
+&lt;p>
+&lt;figure id="figure-老家">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="老家" srcset="
+/post/2023-summary/hometown2_hu483b065d25cc4988ff9c38d34f8cd4f2_357989_3ebbf42f4d3f2b634470b02360c486a4.webp 400w,
+/post/2023-summary/hometown2_hu483b065d25cc4988ff9c38d34f8cd4f2_357989_a123f2ef2e3ce001e5e9ed88992a67c7.webp 760w,
+/post/2023-summary/hometown2_hu483b065d25cc4988ff9c38d34f8cd4f2_357989_1200x1200_fit_q75_h2_lanczos.webp 1200w"
+src="https://yushunxiang.github.io/post/2023-summary/hometown2_hu483b065d25cc4988ff9c38d34f8cd4f2_357989_3ebbf42f4d3f2b634470b02360c486a4.webp"
+width="760"
+height="570"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+老家
+&lt;/figcaption>&lt;/figure>
+&lt;/p>
+&lt;p>
+&lt;figure id="figure-流浪地球2">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="流浪地球2" srcset="
+/post/2023-summary/the-wandering-earth_hudba693abe8f814f92fb17a2fff4debe9_182503_215f7fa22f0b983295cddeb9a0be8e3f.webp 400w,
+/post/2023-summary/the-wandering-earth_hudba693abe8f814f92fb17a2fff4debe9_182503_1220c06617fb1b1e080b448ba46ee8a5.webp 760w,
+/post/2023-summary/the-wandering-earth_hudba693abe8f814f92fb17a2fff4debe9_182503_1200x1200_fit_q75_h2_lanczos.webp 1200w"
+src="https://yushunxiang.github.io/post/2023-summary/the-wandering-earth_hudba693abe8f814f92fb17a2fff4debe9_182503_215f7fa22f0b983295cddeb9a0be8e3f.webp"
+width="760"
+height="570"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+流浪地球2
+&lt;/figcaption>&lt;/figure>
+&lt;/p>
+&lt;p>
+&lt;figure id="figure-外婆家">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="外婆家" srcset="
+/post/2023-summary/anhui-hometown_hu49f1b8f192a7db0598d496e556a7f598_547451_737dcc78999a0406bffec33bf1865e8f.webp 400w,
+/post/2023-summary/anhui-hometown_hu49f1b8f192a7db0598d496e556a7f598_547451_8430eed99a314c530e7c70ec2a89635d.webp 760w,
+/post/2023-summary/anhui-hometown_hu49f1b8f192a7db0598d496e556a7f598_547451_1200x1200_fit_q75_h2_lanczos.webp 1200w"
+src="https://yushunxiang.github.io/post/2023-summary/anhui-hometown_hu49f1b8f192a7db0598d496e556a7f598_547451_737dcc78999a0406bffec33bf1865e8f.webp"
+width="760"
+height="570"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+外婆家
+&lt;/figcaption>&lt;/figure>
+&lt;/p>
+&lt;h2 id="february">February&lt;/h2>
+&lt;p>二月份差不多过完年回校了，当然还有上个学期推迟的期末考试，《信号与系统》的确令人头痛。&lt;/p>
+&lt;p>
+&lt;figure id="figure-很多概念你已经有了所以再学后面就忘掉了">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="信号与系统" srcset="
+/post/2023-summary/signal_hu06b09b3036a30d69c1fe6e10cc7ee3cb_163362_14435e4135db4469b1cbc14a1bbf4e97.webp 400w,
+/post/2023-summary/signal_hu06b09b3036a30d69c1fe6e10cc7ee3cb_163362_e8c4f03eb03d1a739d5530d16a518c72.webp 760w,
+/post/2023-summary/signal_hu06b09b3036a30d69c1fe6e10cc7ee3cb_163362_1200x1200_fit_q75_h2_lanczos.webp 1200w"
+src="https://yushunxiang.github.io/post/2023-summary/signal_hu06b09b3036a30d69c1fe6e10cc7ee3cb_163362_14435e4135db4469b1cbc14a1bbf4e97.webp"
+width="760"
+height="417"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+很多概念你已经有了，所以再学后面就忘掉了
+&lt;/figcaption>&lt;/figure>
+&lt;/p>
+&lt;p>长安校区虽然地方偏了点，但是风景还是很不错的。&lt;/p>
+&lt;p>
+&lt;figure id="figure-西工大长安">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="西工大长安" srcset="
+/post/2023-summary/nwpu1_hu27e46c0b6118f39657a2fbfab85b4699_215351_b31c2992664028b66c2a87b8d2de19dd.webp 400w,
+/post/2023-summary/nwpu1_hu27e46c0b6118f39657a2fbfab85b4699_215351_fa993b83ba56c0692d42ea24d1f6ba07.webp 760w,
+/post/2023-summary/nwpu1_hu27e46c0b6118f39657a2fbfab85b4699_215351_1200x1200_fit_q75_h2_lanczos.webp 1200w"
+src="https://yushunxiang.github.io/post/2023-summary/nwpu1_hu27e46c0b6118f39657a2fbfab85b4699_215351_b31c2992664028b66c2a87b8d2de19dd.webp"
+width="760"
+height="570"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+西工大长安
+&lt;/figcaption>&lt;/figure>
+&lt;/p>
+&lt;p>
+&lt;figure id="figure-西工大长安">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="西工大长安" srcset="
+/post/2023-summary/nwpu2_hu48880e40d5f71b44d8fd7fca8022e49f_225889_2884800b819e562d24eec9d1f125264a.webp 400w,
+/post/2023-summary/nwpu2_hu48880e40d5f71b44d8fd7fca8022e49f_225889_3af13a9d45d84880e12645548ab677d0.webp 760w,
+/post/2023-summary/nwpu2_hu48880e40d5f71b44d8fd7fca8022e49f_225889_1200x1200_fit_q75_h2_lanczos.webp 1200w"
+src="https://yushunxiang.github.io/post/2023-summary/nwpu2_hu48880e40d5f71b44d8fd7fca8022e49f_225889_2884800b819e562d24eec9d1f125264a.webp"
+width="760"
+height="570"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+西工大长安
+&lt;/figcaption>&lt;/figure>
+&lt;/p>
+&lt;p>寝室看起来还是非常温馨的。&lt;/p>
+&lt;p>
+&lt;figure id="figure-寝室">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="寝室" srcset="
+/post/2023-summary/dorm_huf28d9946e1e4543d14bcc6c0542ed09d_341132_27aaf88326eabc1e517ccd4f7b79e4df.webp 400w,
+/post/2023-summary/dorm_huf28d9946e1e4543d14bcc6c0542ed09d_341132_62f418dadafafd37321ed22fbd702205.webp 760w,
+/post/2023-summary/dorm_huf28d9946e1e4543d14bcc6c0542ed09d_341132_1200x1200_fit_q75_h2_lanczos.webp 1200w"
+src="https://yushunxiang.github.io/post/2023-summary/dorm_huf28d9946e1e4543d14bcc6c0542ed09d_341132_27aaf88326eabc1e517ccd4f7b79e4df.webp"
+width="760"
+height="570"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+寝室
+&lt;/figcaption>&lt;/figure>
+&lt;/p>
+&lt;p>
+&lt;figure id="figure-星星">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="星星" srcset="
+/post/2023-summary/star_hu4701b08876325a2216e4f23d49ccfa36_97983_c59d901fa7110d146bf67542d368387e.webp 400w,
+/post/2023-summary/star_hu4701b08876325a2216e4f23d49ccfa36_97983_0e7ef39c978853d11645280dcc1e9b05.webp 760w,
+/post/2023-summary/star_hu4701b08876325a2216e4f23d49ccfa36_97983_1200x1200_fit_q75_h2_lanczos.webp 1200w"
+src="https://yushunxiang.github.io/post/2023-summary/star_hu4701b08876325a2216e4f23d49ccfa36_97983_c59d901fa7110d146bf67542d368387e.webp"
+width="760"
+height="570"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+星星
+&lt;/figcaption>&lt;/figure>
+&lt;/p>
+&lt;h2 id="march">March&lt;/h2>
+&lt;p>好吧我有点不想写了，先放着吧。&lt;/p></description></item><item><title>Welcome to Wowchemy, the website builder for Hugo</title><link>https://yushunxiang.github.io/post/getting-started/</link><pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate><guid>https://yushunxiang.github.io/post/getting-started/</guid><description>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-python" data-lang="python">&lt;span class="line">&lt;span class="cl">&lt;span class="kn">import&lt;/span> &lt;span class="nn">libr&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nb">print&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;hello&amp;#39;&lt;/span>&lt;span class="p">)&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="overview">Overview&lt;/h2>
 &lt;ol>
@@ -145,7 +334,7 @@ console.log('code block');
 &lt;p>Wowchemy supports the popular &lt;a href="https://plot.ly/" target="_blank" rel="noopener">Plotly&lt;/a> format for interactive charts.&lt;/p>
 &lt;p>Save your Plotly JSON in your page folder, for example &lt;code>line-chart.json&lt;/code>, and then add the &lt;code>{{&amp;lt; chart data=&amp;quot;line-chart&amp;quot; &amp;gt;}}&lt;/code> shortcode where you would like the chart to appear.&lt;/p>
 &lt;p>Demo:&lt;/p>
-&lt;div id="chart-895124376" class="chart">&lt;/div>
+&lt;div id="chart-792158634" class="chart">&lt;/div>
 &lt;script>
 (function() {
 let a = setInterval( function() {
@@ -154,7 +343,7 @@ return;
 }
 clearInterval( a );
 Plotly.d3.json("./line-chart.json", function(chart) {
-Plotly.plot('chart-895124376', chart.data, chart.layout, {responsive: true});
+Plotly.plot('chart-792158634', chart.data, chart.layout, {responsive: true});
 });
 }, 500 );
 })();
