@@ -1,5 +1,6 @@
 ---
 title: 2023年终总结
+summary: 我不是一个喜欢总结的人，不过到了年末，想着还是放点照片，留个纪念吧。照片都是随手拍的，我也懒得P图，大伙见谅。
 date: 2023-12-31
 math: true
 image:
@@ -55,5 +56,24 @@ categories:
 
 ## March
 
+![赛格空中餐厅](xi'an-city.jpg "赛格空中餐厅")
+
+![campus](campus.jpg "校园")
+
+![打卡](daka.jpg "你猜猜我拿那么多手机上课是为什么")
+
+![贪睡](sleep.jpg "睡眠提升GPA")
+
+![音乐会](city2.jpg "音乐会")
+
+![铃芽之旅](suzume.jpg "铃芽之旅")
+
+## April
+
+![宿舍足球赛](dorm2.jpg "宿舍足球赛")
+
+![启翔湖](qixiang-lake.jpg "启翔湖")
+
+![保研焦虑](offer.jpg "offer快来")
 
 好吧我有点不想写了，先放着吧。
