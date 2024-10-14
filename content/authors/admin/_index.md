@@ -14,12 +14,12 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: Bachelor of Software Engineering
+role: Master Student
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: Northwestern Polytechnical University
-    url: https://www.nwpu.edu.cn/
+  - name: Shanghai Jiao Tong University
+    url: https://www.sjtu.edu.cn
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include computer vision and robotics
@@ -27,7 +27,7 @@ bio: My research interests include computer vision and robotics
 # Interests to show in About widget
 interests:
   - Computer Vision
-  - Robot
+  - Robotics
   - Embodied AI
 
 # Education to show in About widget
@@ -35,7 +35,10 @@ education:
   courses:
     - course: BEng in Software Engineering
       institution: Northwestern Polytechnical University
-      year: 2020-present
+      year: 2020-2024
+    - course: Master
+      institution: Shanghai Jiao Tong University
+      year: 2024-present
 
 # Social/Academic Networking
 # For available icons, see: https://wowchemy.com/docs/getting-started/page-builder/#icons
@@ -68,13 +71,13 @@ social:
     link: uploads/CV.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: 'xiangyushun@mail.nwpu.edu.cn'
+email: 'xiangyushun@sjtu.edu.cn'
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 ---
 
-I am an undergraduate student majoring in Software Engineering from the School of Software, at Northwestern Polytechnical University. I am an incoming master student at the [RHOS](https://mvig-rhos.com/) team at [MVIG](https://www.mvig.org/), Shanghai Jiao Tong University in 2024, under the supervision of Prof. [Yong-Lu Li](https://dirtyharrylyl.github.io/) and Prof. [Cewu Lu](https://www.mvig.org/).
+I am a first year master student at the [RHOS](https://mvig-rhos.com/) team at [MVIG](https://www.mvig.org/), Shanghai Jiao Tong University in 2024, under the supervision of Prof. [Yong-Lu Li](https://dirtyharrylyl.github.io/) and Prof. [Cewu Lu](https://www.mvig.org/). I earned my BEng degree from the School of Software at Northwestern Polytechnical University.
 {style="text-align: justify;"}
 
 # Honors & Awards

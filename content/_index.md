@@ -211,14 +211,14 @@ sections:
       # text: |-
       #   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mi diam, venenatis ut magna et, vehicula efficitur enim.
       # Contact (add or remove contact options as necessary)
-      email: xiangyushun@mail.nwpu.edu.cn
-      phone: +86 135 1146 3319
+      email: xiangyushun@sjtu.edu.cn
+      # phone: +86 135 1146 3319
       # appointment_url: 'https://calendly.com'
       address:
-        street: 1 Dongxiang Road, Chang'an District
-        city: Xi'an
-        region: Shannxi
-        postcode: '710129'
+        street: 800 Dongchuan RD. Minhang District
+        city: Shanghai
+        region: China
+        postcode: '200240'
         country: P.R.China
         country_code: CHN
       # directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
