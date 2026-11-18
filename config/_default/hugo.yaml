@@ -29,6 +29,12 @@ enableRobotsTXT: true
 footnotereturnlinkcontents: <sup>^</sup>
 ignoreFiles: [".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "_cache$"]
 disableAliases: true
+permalinks:
+  # Keep the URLs published under Wowchemy: /tag/<slug>/ and /category/<slug>/
+  # (the list pages stay at /tags/ and /categories/).
+  term:
+    tags: /tag/:slug/
+    categories: /category/:slug/
 outputs:
   home: [HTML, RSS, backlinks]
   section: [HTML, RSS]
