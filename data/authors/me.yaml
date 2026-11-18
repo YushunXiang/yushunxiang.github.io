@@ -16,9 +16,9 @@ summary: My research interests include embodied AI, robot learning, and vision-l
 
 # Markdown; shown in the homepage About section.
 bio: |
-  I am a master's student at the [RHOS](https://mvig-rhos.com/) team at [MVIG](https://www.mvig.org/),
-  Shanghai Jiao Tong University, under the supervision of Prof. [Yong-Lu Li](https://dirtyharrylyl.github.io/)
-  and Prof. [Cewu Lu](https://www.mvig.org/). I earned my BEng degree from the School of Software at
+  I am a master's student at the [RhOS](https://mvig-rhos.com/) lab,
+  Shanghai Jiao Tong University, under the supervision of Prof. [Yong-Lu Li](https://dirtyharrylyl.github.io/).
+  I earned my BEng degree from the School of Software at
   Northwestern Polytechnical University.
 
 affiliations:
@@ -31,6 +31,9 @@ links:
     label: Email
   - icon: brands/github
     url: https://github.com/YushunXiang
+  - icon: academicons/google-scholar
+    url: https://scholar.google.com/citations?user=NStU6Q4AAAAJ
+    label: Google Scholar
   - icon: academicons/cv
     url: /uploads/CV.pdf
     label: CV
