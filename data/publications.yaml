@@ -1,0 +1,85 @@
+# Publications shown on the homepage, newest first.
+# Fields:
+#   authors: list in paper order; the site owner's name is bolded automatically.
+#            Append "*" for equal contribution.
+#   venue_short: badge text; set `highlight: true` for accepted papers.
+#   links: any of paper / code / website (rendered in that order).
+#   image: path under /static.
+
+- title: "RoboICL: Embodied In-Context Learning with GPT-6 Astra"
+  authors:
+    - Fangcheng Liu*
+    - Yeqing Shen*
+    - Anda Cheng*
+    - Weishi Mi
+    - Chao Tang
+    - Chenyuan Liu
+    - Yushun Xiang
+    - Tingguang Li
+    - Yong-Lu Li
+    - Yehui Tang
+  venue: arXiv preprint
+  venue_short: Preprint 2026
+  year: 2026
+  image: images/pubs/roboicl.png
+  tldr: >-
+    Drives a frozen GPT-6 Astra as a few-shot robot learner using demonstration context and a bounded,
+    anchored interaction memory, with no robot-specific training.
+  links:
+    paper: https://arxiv.org/abs/2609.34261
+    code: https://github.com/Mosi-AI/RoboICL
+    website: https://mosi-ai.github.io/RoboICL-GPT6-Astra.github.io/
+
+- title: "The Great March 100: 100 Detail-oriented Tasks for Evaluating Embodied AI Agents"
+  authors:
+    - Ziyu Wang
+    - Chenyuan Liu
+    - Yushun Xiang
+    - Runhao Zhang
+    - Qingbo Hao
+    - Hongliang Lu
+    - Houyu Chen
+    - Zhizhong Feng
+    - Kaiyue Zheng
+    - Dehao Ye
+    - Xianchao Zeng
+    - Xinyu Zhou
+    - Boran Wen
+    - Jiaxin Li
+    - Mingyu Zhang
+    - Kecheng Zheng
+    - Qian Zhu
+    - Ran Cheng
+    - Yong-Lu Li
+  venue: arXiv preprint
+  venue_short: Preprint 2026
+  year: 2026
+  image: images/pubs/gm100.png
+  tldr: >-
+    GM-100: a benchmark of 100 long-tail manipulation tasks built from human-object interaction primitives
+    and object affordances, with large-scale teleoperation data, designed to separate today's VLA models.
+  links:
+    paper: https://arxiv.org/abs/2601.11421
+    code: https://github.com/yuz1wan/GM-X
+    website: https://www.rhos.ai/research/gm-100
+
+- title: "SpecPrune-VLA: Accelerating Vision-Language-Action Models via Action-Aware Self-Speculative Pruning"
+  authors:
+    - Hanzhen Wang
+    - Jiaming Xu
+    - Yushun Xiang
+    - Jiayi Pan
+    - Yongkang Zhou
+    - Yong-Lu Li
+    - Guohao Dai
+  venue: International Conference on Machine Learning (ICML)
+  venue_short: ICML 2026
+  highlight: true
+  year: 2026
+  image: images/pubs/specprune.png
+  tldr: >-
+    A training-free, two-level token pruning scheme for VLA policies: action-level static pruning plus
+    layer-level dynamic pruning, steered by an action-aware controller, for faster inference at near-identical success rates.
+  links:
+    paper: https://arxiv.org/abs/2509.05614
+    code: https://github.com/alexwhz-sjtu/SpecPrune-VLA

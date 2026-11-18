@@ -1,11 +1,9 @@
 ---
-cms_exclude: true
-
-# To publish author profile pages, remove all of the `_build` and `cascade` settings below.
-_build:
+# Author profiles live in data/authors/. Remove the build/cascade settings to publish profile pages.
+build:
   render: never
 cascade:
-  _build:
+  build:
     render: never
     list: always
 ---
