@@ -14,7 +14,7 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: Master Student
+role: Master's student
 
 # Organizations/Affiliations to show in About widget
 organizations:
@@ -22,13 +22,15 @@ organizations:
     url: https://www.sjtu.edu.cn
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include computer vision and robotics
+bio: My research interests include embodied AI, robot learning, and vision-language-action models
 
 # Interests to show in About widget
 interests:
-  - Computer Vision
-  - Robotics
   - Embodied AI
+  - Robot Manipulation
+  - Vision-Language-Action Models
+  - Efficient Inference
+  - Computer Vision
 
 # Education to show in About widget
 education:
@@ -68,7 +70,7 @@ social:
   # and uncomment the lines below.
   - icon: cv
     icon_pack: ai
-    link: uploads/CV.pdf
+    link: /uploads/CV.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: 'xiangyushun@sjtu.edu.cn'
@@ -77,7 +79,7 @@ email: 'xiangyushun@sjtu.edu.cn'
 highlight_name: true
 ---
 
-I am a first year master student at the [RHOS](https://mvig-rhos.com/) team at [MVIG](https://www.mvig.org/), Shanghai Jiao Tong University in 2024, under the supervision of Prof. [Yong-Lu Li](https://dirtyharrylyl.github.io/) and Prof. [Cewu Lu](https://www.mvig.org/). I earned my BEng degree from the School of Software at Northwestern Polytechnical University.
+I am a master's student at the [RHOS](https://mvig-rhos.com/) team at [MVIG](https://www.mvig.org/), Shanghai Jiao Tong University, under the supervision of Prof. [Yong-Lu Li](https://dirtyharrylyl.github.io/) and Prof. [Cewu Lu](https://www.mvig.org/). I earned my BEng degree from the School of Software at Northwestern Polytechnical University.
 {style="text-align: justify;"}
 
 # Honors & Awards

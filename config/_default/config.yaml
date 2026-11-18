@@ -11,7 +11,7 @@ baseURL: 'https://yushunxiang.github.io' # Website URL
 ############################
 
 defaultContentLanguage: en
-hasCJKLanguage: false
+hasCJKLanguage: true
 defaultContentLanguageInSubdir: false
 removePathAccents: true
 
@@ -44,7 +44,7 @@ permalinks:
   tags: '/tag/:slug/'
   categories: '/category/:slug/'
   publication_types: '/publication-type/:slug/'
-disableAliases: true
+disableAliases: false
 outputs:
   home: [HTML, RSS, JSON, WebAppManifest, headers, redirects]
   section: [HTML, RSS]

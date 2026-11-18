@@ -18,8 +18,8 @@ marketing:
     site_type: Person
     local_business_type: ''
     org_name: ''
-    description: 'A highly-customizable Hugo academic resume theme powered by Wowchemy website builder.'
-    twitter: 'wowchemy'
+    description: 'Yushun Xiang’s academic homepage: master’s student at SJTU working on embodied AI, robot learning, and vision-language-action models.'
+    twitter: ''
   analytics:
     google_analytics: ''
     baidu_tongji: ''
@@ -43,9 +43,9 @@ header:
 
 footer:
   copyright:
-    notice: '© {year} Me. This work is licensed under {license}'
+    notice: '© {year} Yushun Xiang.'
     license:
-      enable: true
+      enable: false
       allow_derivatives: false
       share_alike: true
       allow_commercial: false
@@ -64,7 +64,7 @@ features:
     theme_light: github-light
     theme_dark: dracula
   math:
-    enable: false
+    enable: true
   privacy_pack:
     enable: false
   repository:
