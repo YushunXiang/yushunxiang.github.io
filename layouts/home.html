@@ -1,5 +1,8 @@
-{{- $author := site.GetPage "/authors/admin" -}}
-{{- $avatar := $author.Resources.GetMatch "avatar*" -}}
+{{- /* Standalone homepage: reads data/authors/me.yaml, data/publications.yaml, data/news.yaml.
+     Does not use HugoBlox templates; posts and other pages still do. */ -}}
+{{- $author := hugo.Data.authors.me -}}
+{{- $avatar := resources.GetMatch "media/authors/me.*" -}}
+{{- $desc := site.Params.hugoblox.identity.description -}}
 {{- $me := "Yushun Xiang" -}}
 {{- $css := resources.Get "css/home.css" | minify | fingerprint -}}
 {{- $cv := "uploads/CV.pdf" | relURL -}}
@@ -9,9 +12,9 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{{ site.Title }} · Embodied AI &amp; Robotics</title>
-  <meta name="description" content="{{ site.Params.marketing.seo.description }}">
+  <meta name="description" content="{{ $desc }}">
   <meta property="og:title" content="{{ site.Title }}">
-  <meta property="og:description" content="{{ site.Params.marketing.seo.description }}">
+  <meta property="og:description" content="{{ $desc }}">
   <meta property="og:type" content="website">
   <meta property="og:url" content="{{ site.BaseURL }}">
   {{- with $avatar }}<meta property="og:image" content="{{ .Permalink }}">{{ end }}
@@ -51,7 +54,7 @@
         <p class="eyebrow">Embodied AI · Robot Learning · Vision-Language-Action</p>
         <h1 id="name">Yushun Xiang <span class="cjk" lang="zh">项裕顺</span></h1>
         <p class="lead">
-          {{ $author.Params.role }} at
+          {{ $author.role }} at
           <a href="https://mvig-rhos.com/">RHOS</a> · <a href="https://www.mvig.org/">MVIG</a>,
           Shanghai Jiao Tong University, advised by
           <a href="https://dirtyharrylyl.github.io/">Prof. Yong-Lu Li</a> and
@@ -60,7 +63,7 @@
           efficient vision-language-action models and benchmarks for embodied agents.
         </p>
         <ul class="socials">
-          <li><a href="mailto:{{ $author.Params.email }}">
+          <li><a href="mailto:{{ $author.email }}">
             <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>Email</a></li>
           <li><a href="https://github.com/YushunXiang">
             <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 19c-4.3 1.4-4.3-2.5-6-3m12 5v-3.5c0-1 .1-1.4-.5-2 2.8-.3 5.5-1.4 5.5-6a4.6 4.6 0 0 0-1.3-3.2 4.2 4.2 0 0 0-.1-3.2s-1.1-.3-3.5 1.3a12.3 12.3 0 0 0-6.2 0C6.5 2.8 5.4 3.1 5.4 3.1a4.2 4.2 0 0 0-.1 3.2A4.6 4.6 0 0 0 4 9.5c0 4.6 2.7 5.7 5.5 6-.6.6-.6 1.2-.5 2V21"/></svg>GitHub</a></li>
@@ -81,7 +84,7 @@
       <div class="wrap">
         <h2 id="news-h" class="section-title">News</h2>
         <ul class="news">
-          {{- range site.Data.news }}
+          {{- range hugo.Data.news }}
           <li><time>{{ .date }}</time><span>{{ .text | markdownify }}</span></li>
           {{- end }}
         </ul>
@@ -96,7 +99,7 @@
           <p class="section-note"><span class="star">*</span> equal contribution</p>
         </div>
         <ol class="pubs">
-          {{- range site.Data.publications }}
+          {{- range hugo.Data.publications }}
           <li class="pub">
             {{- $link := or .links.website .links.paper }}
             {{- with .image }}
@@ -136,14 +139,24 @@
       <div class="wrap about">
         <h2 id="about-h" class="section-title">About</h2>
         <div class="about-grid">
-          <div class="prose">{{ $author.Content }}</div>
+          <div class="prose">
+            {{ $author.bio | markdownify }}
+            {{- with $author.awards }}
+            <h3>Honors &amp; Awards</h3>
+            <ul class="awards">
+              {{- range . }}
+              <li><span>{{ .title | markdownify }}</span><time>{{ .years }}</time></li>
+              {{- end }}
+            </ul>
+            {{- end }}
+          </div>
           <aside class="facts">
             <h3>Interests</h3>
-            <ul class="tags">{{ range $author.Params.interests }}<li>{{ . }}</li>{{ end }}</ul>
+            <ul class="tags">{{ range $author.interests }}<li>{{ . }}</li>{{ end }}</ul>
             <h3>Education</h3>
             <ul class="edu">
-              {{- range $author.Params.education.courses }}
-              <li><span>{{ .course }}</span><small>{{ .institution }} · {{ .year }}</small></li>
+              {{- range $author.education }}
+              <li><span>{{ .degree }}</span><small>{{ .institution }} · {{ .years }}</small></li>
               {{- end }}
             </ul>
           </aside>
@@ -174,7 +187,7 @@
   <footer class="footer">
     <div class="wrap footer-inner">
       <span>© {{ now.Year }} Yushun Xiang</span>
-      <a href="mailto:{{ $author.Params.email }}">{{ $author.Params.email }}</a>
+      <a href="mailto:{{ $author.email }}">{{ $author.email }}</a>
     </div>
   </footer>
 

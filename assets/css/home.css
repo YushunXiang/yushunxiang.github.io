@@ -1,4 +1,4 @@
-/* Homepage styles (layouts/index.html). Post pages keep the Wowchemy theme + assets/scss/custom.scss. */
+/* Homepage styles (layouts/home.html). Other pages use the HugoBlox theme. */
 
 :root {
   --bg: #fbfaf7;
@@ -175,10 +175,15 @@ svg { width: 1em; height: 1em; fill: none; stroke: currentColor; stroke-width: 1
 .about-grid { display: grid; grid-template-columns: minmax(0, 1fr) 300px; gap: 56px; }
 .prose { font-size: 1rem; }
 .prose p { margin-bottom: 1em; text-align: left !important; }
-.prose h1, .prose h2 { font-family: var(--serif); font-weight: 400; font-size: 1.4rem; margin: 28px 0 14px; }
-.prose ul { display: grid; gap: 8px; }
-.prose li { padding: 10px 14px; border-left: 2px solid var(--accent); background: var(--surface); border-radius: 0 8px 8px 0; font-size: .93rem; }
-.prose li span[style] { color: var(--faint); font-size: .85rem; font-variant-numeric: tabular-nums; margin-left: 12px; }
+.prose h3 { font-family: var(--serif); font-weight: 400; font-size: 1.4rem; margin: 28px 0 14px; }
+.awards { display: grid; gap: 8px; }
+.awards li {
+  display: flex; justify-content: space-between; align-items: baseline; gap: 16px;
+  padding: 10px 14px; border-left: 2px solid var(--accent); background: var(--surface);
+  border-radius: 0 8px 8px 0; font-size: .93rem;
+}
+.awards li p { margin: 0; }
+.awards time { color: var(--faint); font-size: .85rem; font-variant-numeric: tabular-nums; white-space: nowrap; }
 .facts h3 { font-size: .75rem; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; color: var(--faint); margin: 0 0 12px; }
 .facts h3 + ul { margin-bottom: 28px; }
 .tags { display: flex; flex-wrap: wrap; gap: 8px; }

@@ -1,0 +1,57 @@
+# Hugo configuration
+# HugoBlox docs: https://docs.hugoblox.com/
+# Hugo docs: https://gohugo.io/getting-started/configuration/
+
+title: Yushun Xiang
+baseURL: 'https://yushunxiang.github.io/'
+
+############################
+## LANGUAGE
+############################
+
+defaultContentLanguage: en
+hasCJKLanguage: true
+defaultContentLanguageInSubdir: false
+removePathAccents: true
+
+############################
+## ADVANCED
+############################
+
+build:
+  writeStats: true
+enableGitInfo: false
+summaryLength: 30
+pagination:
+  pagerSize: 10
+enableEmoji: true
+enableRobotsTXT: true
+footnotereturnlinkcontents: <sup>^</sup>
+ignoreFiles: [".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "_cache$"]
+disableAliases: true
+outputs:
+  home: [HTML, RSS, backlinks]
+  section: [HTML, RSS]
+imaging:
+  resampleFilter: lanczos
+  jpeg:
+    quality: 90
+  webp:
+    quality: 90
+  anchor: smart
+timeout: 600000
+taxonomies:
+  author: authors
+  tag: tags
+  category: categories
+markup:
+  _merge: deep
+  highlight:
+    lineNos: false
+security:
+  _merge: deep
+  exec:
+    # Hugo's default list plus the Tailwind CLI used by HugoBlox's css.TailwindCSS pipeline.
+    allow: ['^(dart-)?sass$', '^go$', '^git$', '^node$', '^postcss$', '^tailwindcss$']
+sitemap:
+  _merge: deep

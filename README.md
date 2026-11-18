@@ -1,25 +1,35 @@
 # Yushun Xiang's academic homepage
 
-A Hugo and Wowchemy academic website, published at [yushunxiang.github.io](https://yushunxiang.github.io/). The separate Hexo blog is maintained independently.
+A Hugo website, published at [yushunxiang.github.io](https://yushunxiang.github.io/). The homepage is a standalone template; posts and other pages use the [HugoBlox](https://github.com/HugoBlox/kit) theme (Tailwind CSS v4). The separate Hexo blog is maintained independently.
 
 ## Local preview
 
-Install **Hugo Extended 0.121.2** and **Go 1.21**. Go is needed to download the Hugo modules specified in `go.mod`. From the repository root, run:
+Requirements: **Hugo Extended 0.170.1** (`brew install hugo`), **Go** (`brew install go`, used to download the theme module) and **Node.js** (for Tailwind CSS).
 
 ```sh
-hugo server
+npm install      # first time, or after package.json changes
+hugo server      # http://localhost:1313
 ```
 
-Open the local address printed by Hugo. To check the production build, run `hugo --gc --minify`; the generated site is written to `public/`.
+The first run downloads the HugoBlox module, which takes a little while. To check the production build, run `hugo --gc --minify`; output goes to `public/`.
+
+When upgrading Hugo, also update `HUGO_VERSION` in `.github/workflows/gh-pages.yml` so CI and local builds match.
 
 ## Content
 
-- Edit `content/authors/admin/_index.md` for the biography, interests, education, social links, and honors. Replace `content/authors/admin/avatar.jpg` to update the portrait.
-- Edit `content/_index.md` for homepage sections and `config/_default/menus.yaml` for navigation. Update the contact email in both the homepage and author profile when necessary.
-- To add a post, create `content/post/<slug>/index.md` with YAML front matter (`title`, `date`, optional `summary`, `tags`, and `categories`), followed by Markdown. Put images in the same directory and refer to them by relative filename. Set `math: true` for a post containing mathematical notation.
-- Replace `static/uploads/CV.pdf` to update the CV. Template publications, projects, talks, and slides are retained as drafts; replace their content with verified information before publishing them.
-- Site appearance overrides live in `assets/scss/custom.scss`. Site metadata and feature settings live in `config/_default/`.
+| What | Where |
+|---|---|
+| Publications (title, authors, venue, links, figure) | `data/publications.yaml`; figures in `static/images/pubs/` |
+| News | `data/news.yaml` |
+| Bio, interests, education, honors, email | `data/authors/me.yaml` |
+| Portrait | `assets/media/authors/me.jpg` |
+| CV | `static/uploads/CV.pdf` |
+| Homepage layout and styles | `layouts/home.html`, `assets/css/home.css` |
+| Navigation on theme pages | `config/_default/menus.yaml` |
+| Theme settings (colors, header, math, etc.) | `config/_default/params.yaml` |
+
+To add a post, create `content/post/<slug>/index.md` with YAML front matter (`title`, `date`, optional `summary`, `tags`, `categories`, and `math: true` if needed), followed by Markdown. Put images in the same folder and reference them by filename; a `featured.jpg` becomes the post's cover.
 
 ## GitHub Pages
 
-In the repository's **Settings → Pages → Build and deployment**, set **Source** to **GitHub Actions**. Pushes to `main` build and deploy the site; pull requests run the build without deploying. The workflow can also be run manually on `main`. Check the **Actions** tab and the `github-pages` deployment environment for build or deployment errors. The first build may need network access to download Hugo modules.
+In **Settings → Pages → Build and deployment**, set **Source** to **GitHub Actions**. Pushes to `main` build and deploy the site; pull requests only run the build.

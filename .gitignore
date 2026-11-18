@@ -11,3 +11,7 @@ go.sum
 
 # macOS
 .DS_Store
+
+# Node / Tailwind
+node_modules/
+hugo_stats.json

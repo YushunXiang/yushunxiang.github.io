@@ -1,0 +1,16 @@
+{
+  "name": "yushunxiang-github-io",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Yushun Xiang's academic website (Hugo + HugoBlox, Tailwind CSS v4)",
+  "scripts": {
+    "dev": "hugo server --disableFastRender",
+    "build": "hugo --minify"
+  },
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.12",
+    "@tailwindcss/typography": "^0.5.10",
+    "preact": "^10.27.2",
+    "tailwindcss": "^4.1.12"
+  }
+}

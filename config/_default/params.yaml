@@ -1,114 +1,78 @@
-# SITE SETUP
-# Guide: https://wowchemy.com/docs/getting-started/
-# Documentation: https://wowchemy.com/docs/
-# This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
+# HugoBlox configuration (schema v2)
+# Docs: https://docs.hugoblox.com/
+# The homepage (layouts/home.html) is custom and only reads `identity.description`;
+# everything else here styles the theme-rendered pages (posts, tags, 404).
+hugoblox:
+  schema: "2.0"
 
-# Appearance
+  identity:
+    name: "Yushun Xiang"
+    organization: ""
+    type: person
+    tagline: ""
+    description: "Yushun Xiang’s academic homepage: master’s student at SJTU working on embodied AI, robot learning, and vision-language-action models."
+    social:
+      twitter: ""
 
-appearance:
-  theme_day: minimal
-  theme_night: minimal
-  font: minimal
-  font_size: L
+  theme:
+    mode: system
+    pack: "default"
+    colors:
+      primary: "#0f6e63"
+      secondary: ""
+      neutral: ""
 
-# SEO
+  typography:
+    pack: "academic"
 
-marketing:
-  seo:
-    site_type: Person
-    local_business_type: ''
-    org_name: ''
-    description: 'Yushun Xiang’s academic homepage: master’s student at SJTU working on embodied AI, robot learning, and vision-language-action models.'
-    twitter: ''
-  analytics:
-    google_analytics: ''
-    baidu_tongji: ''
-  verification:
-    google: ''
-    baidu: ''
+  layout:
+    radius: "md"
+    spacing: "comfortable"
+    avatar_shape: circle
 
-# Site header
-
-header:
-  navbar:
+  header:
     enable: true
-    align: l
-    show_logo: true
-    show_language: false
-    show_day_night: true
-    show_search: true
-    highlight_active_link: true
-
-# Site footer
-
-footer:
-  copyright:
-    notice: '© {year} Yushun Xiang.'
-    license:
+    style: navbar
+    sticky: true
+    align: right
+    search: false
+    theme_toggle: true
+    theme_picker: false
+    language_switcher: false
+    cta:
       enable: false
-      allow_derivatives: false
-      share_alike: true
-      allow_commercial: false
 
-# Localization
+  footer:
+    style: minimal
+    language_switcher: false
+    text: ""
 
-locale:
-  date_format: 'Jan 2, 2006'
-  time_format: '3:04 PM'
-  address_format: en-us
+  copyright:
+    notice: "© {year} {name}."
+    license:
+      type: custom
 
-# Site features
+  content:
+    math:
+      enable: true
+    toc:
+      enable: true
+    reading_time:
+      enable: true
 
-features:
-  syntax_highlighter:
-    theme_light: github-light
-    theme_dark: dracula
-  math:
-    enable: true
-  privacy_pack:
-    enable: false
-  repository:
-    url: 'https://github.com/YushunXiang/yushunxiang.github.io'
-    content_dir: content
-    branch: main
-  avatar:
-    gravatar: false
-    shape: circle
-  comment:
-    provider: ''
-    disqus:
-      shortname: ''
-      show_count: true
-    commento:
-      url: ''
-    giscus:
-      repo: ''
-      repo_id: ''
-      category: ''
-      category_id: ''
   search:
-    provider: wowchemy
-    algolia:
-      app_id: ''
-      api_key: ''
-      index_name: ''
-      show_logo: false
-  map:
-    provider: ''
-    api_key: ''
-    zoom: 15
+    enable: false
 
-# Extensions
+  comments:
+    enable: false
 
-extensions:
-  cms:
+  repository:
+    enable: false
+    url: "https://github.com/YushunXiang/yushunxiang.github.io"
     branch: main
-    local_backend: false
-  academicons:
-    enable: true
+    content_dir: content
 
-# Security
-
-security:
-  # Allow frame for embedding speaker notes in slides
-  allow_frame: true
+  locale:
+    date_format: "Jan 2, 2006"
+    time_format: "3:04 PM"
+    address_format: en-us

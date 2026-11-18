@@ -1,0 +1,22 @@
+# Hugo modules (theme). Docs: https://gohugo.io/hugo-modules/
+# goproxy.cn speeds up module downloads from mainland China; falls back to direct.
+proxy: https://goproxy.cn,direct
+
+imports:
+  - path: github.com/HugoBlox/kit/modules/blox
+
+mounts:
+  - source: layouts
+    target: layouts
+  - source: assets
+    target: assets
+  - source: static
+    target: static
+  - source: content
+    target: content
+  - source: data
+    target: data
+  - source: i18n
+    target: i18n
+  - source: archetypes
+    target: archetypes

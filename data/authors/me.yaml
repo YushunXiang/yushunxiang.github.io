@@ -1,0 +1,66 @@
+schema: hugoblox/author/v1
+slug: me
+is_owner: true
+name:
+  display: Yushun Xiang
+  given: Yushun
+  family: Xiang
+  alternate: 项裕顺
+status:
+  icon: "☕️"
+role: Master's student
+email: xiangyushun@sjtu.edu.cn
+
+# Short line used by the theme (post author cards, SEO).
+summary: My research interests include embodied AI, robot learning, and vision-language-action models.
+
+# Markdown; shown in the homepage About section.
+bio: |
+  I am a master's student at the [RHOS](https://mvig-rhos.com/) team at [MVIG](https://www.mvig.org/),
+  Shanghai Jiao Tong University, under the supervision of Prof. [Yong-Lu Li](https://dirtyharrylyl.github.io/)
+  and Prof. [Cewu Lu](https://www.mvig.org/). I earned my BEng degree from the School of Software at
+  Northwestern Polytechnical University.
+
+affiliations:
+  - name: Shanghai Jiao Tong University
+    url: https://www.sjtu.edu.cn
+
+links:
+  - icon: at-symbol
+    url: mailto:xiangyushun@sjtu.edu.cn
+    label: Email
+  - icon: brands/github
+    url: https://github.com/YushunXiang
+  - icon: academicons/cv
+    url: /uploads/CV.pdf
+    label: CV
+
+interests:
+  - Embodied AI
+  - Robot Manipulation
+  - Vision-Language-Action Models
+  - Efficient Inference
+  - Computer Vision
+
+education:
+  - degree: Master
+    institution: Shanghai Jiao Tong University
+    start: 2024-09-01
+    years: 2024–present
+  - degree: BEng in Software Engineering
+    institution: Northwestern Polytechnical University
+    start: 2020-09-01
+    end: 2024-06-30
+    years: 2020–2024
+
+# `years` is the label shown on the homepage.
+awards:
+  - title: Meritorious Winner, Mathematical Contest in Modeling
+    date: "2023-01-01"
+    years: "2023"
+  - title: Chinese National Scholarship
+    date: "2022-01-01"
+    years: "2021 & 2022"
+  - title: Excellent Intern, a summer internship program organized by [ASLP@NPU](http://www.nwpu-aslp.org/)
+    date: "2022-01-01"
+    years: "2022"
