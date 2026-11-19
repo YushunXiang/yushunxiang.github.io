@@ -3,6 +3,7 @@ title: 2023年终总结
 summary: 我不是一个喜欢总结的人，不过到了年末，想着还是放点照片，留个纪念吧。照片都是随手拍的，我也懒得P图，大伙见谅。
 date: 2023-12-31
 math: true
+reading_theme: light
 image:
   placement: 2
   caption: 'Suzhou City Walk'
