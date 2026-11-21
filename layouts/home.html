@@ -24,7 +24,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Newsreader:opsz,wght@6..72,400;6..72,500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
   <script>
-    (function(){try{var t=localStorage.getItem('theme');if(t)document.documentElement.setAttribute('data-theme',t);}catch(e){}})();
+    (function(){document.documentElement.classList.add('js');try{var t=localStorage.getItem('theme');if(t)document.documentElement.setAttribute('data-theme',t);}catch(e){}})();
   </script>
 </head>
 <body>
@@ -45,15 +45,18 @@
         </button>
       </div>
     </nav>
+    <div class="progress" aria-hidden="true"></div>
   </header>
 
   <main id="main">
     {{/* ---------- Hero ---------- */}}
+    <div class="hero-shell">
+    <div class="hero-bg" aria-hidden="true"><span class="blob b1"></span><span class="blob b2"></span><span class="blob b3"></span></div>
     <section class="wrap hero" aria-labelledby="name">
       <div class="hero-text">
-        <p class="eyebrow">Embodied AI · Robot Learning · Vision-Language-Action</p>
-        <h1 id="name">Yushun Xiang <span class="cjk" lang="zh">项裕顺</span></h1>
-        <p class="lead">
+        <p class="eyebrow rise" style="--d:.05s">Embodied AI · Robot Learning · Vision-Language-Action</p>
+        <h1 id="name" class="rise" style="--d:.15s">Yushun Xiang <span class="cjk" lang="zh">项裕顺</span></h1>
+        <p class="lead rise" style="--d:.28s">
           {{ $author.role }} at
           <a href="https://mvig-rhos.com/">RhOS lab</a>,
           Shanghai Jiao Tong University, advised by
@@ -61,7 +64,7 @@
           I work on making robots that see, understand, and act, with a focus on
           efficient vision-language-action models and benchmarks for embodied agents.
         </p>
-        <ul class="socials">
+        <ul class="socials rise" style="--d:.4s">
           <li><a href="mailto:{{ $author.email }}">
             <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>Email</a></li>
           <li><a href="https://github.com/YushunXiang">
@@ -74,17 +77,18 @@
       </div>
       {{- with $avatar }}
       {{- $img := .Fill "560x700 Center webp q85" }}
-      <figure class="portrait">
+      <figure class="portrait rise" style="--d:.2s">
         <img src="{{ $img.RelPermalink }}" width="{{ $img.Width }}" height="{{ $img.Height }}" alt="Portrait of Yushun Xiang">
       </figure>
       {{- end }}
     </section>
+    </div>
 
     {{/* ---------- News ---------- */}}
     <section class="section" id="news" aria-labelledby="news-h">
       <div class="wrap">
-        <h2 id="news-h" class="section-title">News</h2>
-        <ul class="news">
+        <h2 id="news-h" class="section-title reveal">News</h2>
+        <ul class="news reveal">
           {{- range hugo.Data.news }}
           <li><time>{{ .date }}</time><span>{{ .text | markdownify }}</span></li>
           {{- end }}
@@ -95,13 +99,13 @@
     {{/* ---------- Publications ---------- */}}
     <section class="section" id="publications" aria-labelledby="pubs-h">
       <div class="wrap">
-        <div class="section-head">
+        <div class="section-head reveal">
           <h2 id="pubs-h" class="section-title">Publications</h2>
           <p class="section-note"><span class="star">*</span> equal contribution</p>
         </div>
         <ol class="pubs">
           {{- range hugo.Data.publications }}
-          <li class="pub">
+          <li class="pub reveal{{ if .highlight }} pub-highlight{{ end }}">
             {{- $link := or .links.website .links.paper }}
             {{- with .image }}
             <a class="pub-thumb" href="{{ $link }}" tabindex="-1" aria-hidden="true">
@@ -138,8 +142,8 @@
     {{/* ---------- About ---------- */}}
     <section class="section" id="about" aria-labelledby="about-h">
       <div class="wrap about">
-        <h2 id="about-h" class="section-title">About</h2>
-        <div class="about-grid">
+        <h2 id="about-h" class="section-title reveal">About</h2>
+        <div class="about-grid reveal">
           <div class="prose">
             {{ $author.bio | markdownify }}
             {{- with $author.awards }}
@@ -170,11 +174,11 @@
     {{- with first 3 .RegularPages.ByDate.Reverse }}
     <section class="section" id="posts" aria-labelledby="posts-h">
       <div class="wrap">
-        <div class="section-head">
+        <div class="section-head reveal">
           <h2 id="posts-h" class="section-title">Writing</h2>
           <a class="more" href="{{ "post/" | relURL }}">All posts →</a>
         </div>
-        <ul class="posts">
+        <ul class="posts reveal">
           {{- range . }}
           <li><a href="{{ .RelPermalink }}"><time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Jan 2006" }}</time><span>{{ .Title }}</span></a></li>
           {{- end }}
@@ -192,15 +196,99 @@
     </div>
   </footer>
 
+  <a class="to-top" href="#main" aria-label="Back to top" title="Back to top">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+  </a>
+
   <script>
-    document.querySelector('.theme-toggle').addEventListener('click', function () {
+    (function () {
       var root = document.documentElement;
-      var cur = root.getAttribute('data-theme') ||
-        (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
-      var next = cur === 'dark' ? 'light' : 'dark';
-      root.setAttribute('data-theme', next);
-      try { localStorage.setItem('theme', next); } catch (e) {}
-    });
+      var reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+      // Theme toggle
+      document.querySelector('.theme-toggle').addEventListener('click', function () {
+        var cur = root.getAttribute('data-theme') ||
+          (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+        var next = cur === 'dark' ? 'light' : 'dark';
+        root.setAttribute('data-theme', next);
+        try { localStorage.setItem('theme', next); } catch (e) {}
+      });
+
+      // Scroll reveal
+      var reveals = document.querySelectorAll('.reveal');
+      if (reduce || !('IntersectionObserver' in window)) {
+        reveals.forEach(function (el) { el.classList.add('is-in'); });
+      } else {
+        var io = new IntersectionObserver(function (entries) {
+          entries.forEach(function (e) {
+            if (e.isIntersecting) { e.target.classList.add('is-in'); io.unobserve(e.target); }
+          });
+        }, { rootMargin: '0px 0px -8% 0px', threshold: 0.08 });
+        reveals.forEach(function (el) { io.observe(el); });
+      }
+
+      // Active nav link
+      var links = {};
+      document.querySelectorAll('.navlinks a[href^="#"]').forEach(function (a) { links[a.getAttribute('href').slice(1)] = a; });
+      if ('IntersectionObserver' in window) {
+        var nav = new IntersectionObserver(function (entries) {
+          entries.forEach(function (e) {
+            var a = links[e.target.id];
+            if (a) a.classList.toggle('is-active', e.isIntersecting);
+          });
+        }, { rootMargin: '-45% 0px -50% 0px' });
+        Object.keys(links).forEach(function (id) { var s = document.getElementById(id); if (s) nav.observe(s); });
+      }
+
+      // Scroll progress, topbar shadow, back-to-top
+      var topbar = document.querySelector('.topbar');
+      var toTop = document.querySelector('.to-top');
+      var ticking = false;
+      function onScroll() {
+        var y = window.scrollY;
+        var max = document.documentElement.scrollHeight - window.innerHeight;
+        root.style.setProperty('--progress', max > 0 ? Math.min(y / max, 1) : 0);
+        topbar.classList.toggle('is-scrolled', y > 8);
+        toTop.classList.toggle('is-visible', y > window.innerHeight * 0.8);
+        ticking = false;
+      }
+      window.addEventListener('scroll', function () {
+        if (!ticking) { ticking = true; requestAnimationFrame(onScroll); }
+      }, { passive: true });
+      onScroll();
+
+      // Pointer effects: card glow and portrait tilt (fine pointers only)
+      if (reduce || !matchMedia('(hover: hover) and (pointer: fine)').matches) return;
+      var portrait = document.querySelector('.portrait');
+      var hero = document.querySelector('.hero');
+      var ev = null, pending = false;
+      function frame() {
+        pending = false;
+        var card = ev.target.closest && ev.target.closest('.pub');
+        if (card) {
+          var r = card.getBoundingClientRect();
+          card.style.setProperty('--mx', (ev.clientX - r.left) + 'px');
+          card.style.setProperty('--my', (ev.clientY - r.top) + 'px');
+        }
+        if (portrait && hero) {
+          var h = hero.getBoundingClientRect();
+          if (ev.clientY >= h.top && ev.clientY <= h.bottom) {
+            var p = portrait.getBoundingClientRect();
+            var dx = (ev.clientX - (p.left + p.width / 2)) / window.innerWidth;
+            var dy = (ev.clientY - (p.top + p.height / 2)) / window.innerHeight;
+            portrait.style.setProperty('--ry', (dx * 14).toFixed(2) + 'deg');
+            portrait.style.setProperty('--rx', (-dy * 14).toFixed(2) + 'deg');
+          } else {
+            portrait.style.setProperty('--ry', '0deg');
+            portrait.style.setProperty('--rx', '0deg');
+          }
+        }
+      }
+      document.addEventListener('pointermove', function (e) {
+        ev = e;
+        if (!pending) { pending = true; requestAnimationFrame(frame); }
+      }, { passive: true });
+    })();
   </script>
 </body>
 </html>
