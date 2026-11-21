@@ -1,7 +1,7 @@
 # Homepage news, newest first. `text` supports Markdown.
 - date: "Sep 2026"
   text: "**RoboICL** is out on [arXiv](https://arxiv.org/abs/2609.34261): embodied in-context learning with GPT-6 Astra. [Code](https://github.com/Mosi-AI/RoboICL) and [project page](https://mosi-ai.github.io/RoboICL-GPT6-Astra.github.io/) are available."
-- date: "2026"
+- date: "May 2026"
   text: "**SpecPrune-VLA** was accepted to **ICML 2026**."
 - date: "Jan 2026"
   text: "We released **The Great March 100 (GM-100)**, a benchmark of 100 detail-oriented tasks for embodied AI. See the [project page](https://www.rhos.ai/research/gm-100)."
