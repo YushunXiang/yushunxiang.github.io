@@ -65,8 +65,8 @@
 
 - title: "SpecPrune-VLA: Accelerating Vision-Language-Action Models via Action-Aware Self-Speculative Pruning"
   authors:
-    - Hanzhen Wang
-    - Jiaming Xu
+    - Hanzhen Wang*
+    - Jiaming Xu*
     - Yushun Xiang
     - Jiayi Pan
     - Yongkang Zhou
